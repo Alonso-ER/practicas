@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="shortcut icon" href="/img/bd3704cf52ba23499660b8bae7221daf-dise-o-plano-de-icono-de-tienda.png" type="image/x-icon">
+</head>
+<body onload="gwen()">
+    <header>
+        <a href="/index.html">
+            <img src="/img/bd3704cf52ba23499660b8bae7221daf-dise-o-plano-de-icono-de-tienda.png" alt="">
+            <h1>Tienda</h1>
+        </a>
+        
+        <a href="/carrito.html" class="img-carrito">
+            <img src="/img/942820836246f08c2d6be20a45a84139-icono-de-carrito-de-compras-carrito-de-compras.png" alt="">
+        </a>
+    </header>
+    <nav>
+        <ul class="navbar">
+            <a href="">Inicio</a>
+            <a href="/#nuevos">Lo Nuevo</a>
+            <a href="/#electronicos">Electrónicos</a>
+            <a href="/#casa">De Casa</a>
+            <a href="/#oficina">De Oficina</a>
+            <a href="/info.html">Sobre Mi</a>
+        </ul>
+    </nav>
+
+    <section class="cart">
+        <table>
+            <thead>
+                <th>Carrito</th>
+                <th></th>
+                <th></th>
+                <th>Precio</th>
+                <th></th>
+                <th></th>
+            </thead>
+            <tbody id="articulos">
+                
+                
+            </tbody>
+        </table>
+        <div id="total">
+            <div>
+                Total de productos = 
+                <div class="total" id="to">
+                    
+                </div>
+            </div>
+            <div>
+                <a href="/form_compra.html">
+                    <button onclick="pagar()">Pagar ahora</button>
+                </a>
+                
+            </div>
+        </div>
+    </section>
+    <footer class="espacio">
+
+    </footer>
+    <script src="/js/carrito.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</body>
+</html>

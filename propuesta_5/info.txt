@@ -1,0 +1,31 @@
+Carrito de compras
+
+Consiste en desarrollar una página web que permita al usuario realizar compras en línea, 
+así como una sección dedicada a la información del vendedor.
+
+Los artículos vendidos y en existencia deberán ser reflejados en la base de datos, así como los 	
+costos y el total de la venta. Es decir, el catálogo web se presentará de acuerdo a la información 	almacenada en la base de datos.
+
+Puntos a considerar:
+•	Diseño de interfaces
+•	Conexiòn a base de datos
+•	Navegación entre las vistas 
+•	Modelo secuencial
+
+El usuario podrá ingresar sus datos personales tales como nombre, domicilio, 
+número telefónico 	entre otros, esto con el fin de enviar a su destino los artículos adquiridos.
+
+Tecnologías:
+•	HTML
+•	CSS
+•	BOOTSTRAP
+•	JAVASCRIPT
+•	PostgreSQL
+
+Controles:
+•	Banner (header)
+•	Navigation (menu)
+•	Main page content
+•	Footer
+•	Container (wrapper)
+•	Carrusel

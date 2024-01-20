@@ -1,0 +1,27 @@
+Cuestionario
+
+Desarrollar un sitio web que permita aplicar un cuestionario de al menos 10 preguntas, 
+este deberá solicitar previamente el registro del encuestado.
+
+Las 3 vistas serán distribuidas de la siguiente manera:
+•	Vista inicial: registro de los datos de la persona que responderá el cuestionario
+•	Segunda vista: cuestionario con las 10 preguntas y al menos 3 opciones donde solo se podrá seleccionar una respuesta
+•	Tercera vista: esta contendrá los datos capturados del registro, así como el resultado total del cuestionario.
+
+Puntos a considerar:
+•	Distribución del contenido
+•	Diseño de interfaces
+•	Aplicación de formularios
+•	Modelo secuencial
+
+Tecnologías:
+•	HTML
+•	CSS
+•	BOOTSTRAP
+•	JAVASCRIPT
+
+Controles:
+•	Banner (header)
+•	Main page content
+•	Footer
+•	Container (wrapper)

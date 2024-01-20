@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagar</title>
+    <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="shortcut icon" href="/img/bd3704cf52ba23499660b8bae7221daf-dise-o-plano-de-icono-de-tienda.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <a href="/index.html">
+            <img src="/img/bd3704cf52ba23499660b8bae7221daf-dise-o-plano-de-icono-de-tienda.png" alt="">
+            <h1>Tienda</h1>
+        </a>
+        
+        <a href="/carrito.html" class="img-carrito">
+            <img src="/img/942820836246f08c2d6be20a45a84139-icono-de-carrito-de-compras-carrito-de-compras.png" alt="">
+        </a>
+    </header>
+    <nav>
+        <ul class="navbar">
+            <a href="">Inicio</a>
+            <a href="/#nuevos">Lo Nuevo</a>
+            <a href="/#electronicos">Electrónicos</a>
+            <a href="/#casa">De Casa</a>
+            <a href="/#oficina">De Oficina</a>
+            <a href="/info.html">Sobre Mi</a>
+        </ul>
+    </nav>
+    <div class="title" >
+        <h2>Ingrese sus datos por favor</h2>
+    </div>
+    <section class="formulario">
+        <form>
+            <label for="name">Nombre</label>
+            <input type="text" name="Nombre" id="name"><br>
+            <label for="lastname">Apellidos</label>
+            <input type="text" name="Apellidos" id="lastname"><br>
+            <label for="city">Ciudad</label>
+            <input type="text" name="Ciudad" id="city"><br>
+            <label for="cp">Codigo Postal</label>
+            <input type="text" name="CP" id="cp"><br>
+            <label for="no_casa">Número Exterior</label>
+            <input type="text" name="No" id="no_casa"><br>
+            <label for="tel">Teléfono</label>
+            <input type="text" name="Tel" id="tel"><br>
+        </form>
+        <br>
+        <form>
+            <label for="no_tar">No. Tarjeta</label>
+            <input type="text" name="NoTar" id="no_tar"><br>
+            <label for="cvv">CVV</label>
+            <input type="text" name="CVV" id="cvv"><br>
+            <label for="date">Fecha de Vencimiento</label>
+            <input type="text" name="Fecha" id="date"><br>
+            <div class="submit">
+                <a href="/index.html">
+                <button onclick="pagar()">Enviar</button>
+                </a>
+            </div>
+            
+        </form>
+    </section>
+
+
+
+
+    <footer>
+        <div class="foot">
+            Todos Los Derechos Reservados
+        </div>
+    </footer>
+    <script  src="/js/pagar.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</body>
+</html>

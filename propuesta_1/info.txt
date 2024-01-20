@@ -1,0 +1,30 @@
+Página web
+
+Página informativa (única vista): se desarrollará una página web que permita ver información
+ 	sobre el CBTIS (solo consulta).
+
+Puntos a considerar: 
+•	Distribución de la información
+•	Imágenes y tipografías
+•	Animaciones y colores
+•	Modelo jerárquico
+
+Secciones:
+•	Información/noticias relevantes 
+•	Sobre la comunidad estudiantil
+•	Carreras/Becas educactivas
+•	Información de contacto/ubicación
+
+Tecnologías:
+•	HTML
+•	CSS
+•	BOOTSTRAP
+
+Controles:
+•	Banner (header)
+•	Navigation (menu)
+•	Sidebar 
+•	Main page content
+•	Footer
+•	Container (wrapper)
+•	Carrusel

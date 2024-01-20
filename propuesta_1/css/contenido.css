@@ -1,0 +1,220 @@
+/*   Contenido principal de la pagina*/
+.contenido{
+    width: 100%;
+    background: #fff;
+}
+a{
+    transition: background-color 0.2s linear,color 0.2s linear;
+}
+
+
+/*  Contiene la información e imagenes principales*/
+.content{
+    width: 62%;
+    float: left;
+    padding-left: 30px;
+    margin-top: -20px;
+}
+.content table{
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    display: table;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-color: gray;
+}
+.content tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+img{
+    border: 0;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.content img{
+    max-width: 100%!important;
+    height: auto!important;
+    padding-bottom: 20px;
+}
+.content iframe{
+    padding-bottom: 20px;
+    max-width: 100%;
+}
+.content a{
+    text-decoration: none;
+}
+
+.nosirve{
+    margin: 0 0 24px;
+    padding: 0px 18px;
+    background: url('https://www.cbtis225.edu.mx/templates/gk_gamenews/images/header_bg.png');
+    font-size: 14px;
+}
+.ini{
+    float: left;
+    color: #999;
+    list-style: none;
+}
+.tools{
+    float: right;
+    margin: 4px 0 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    word-spacing: 10px;
+}
+.tools a{
+    display: block;
+    float: left;
+    width: 22px;
+    text-indent: -99999em;
+    background: url(/imagenes/font_size.png) no-repeat -38px 50%;
+}
+.fin-content img{
+    padding: 0;
+}
+
+.menu > div {
+    
+    width: 40px;
+    display: none;
+}
+.carrusel:hover .menu >div{
+    display: inline;
+}
+.next > span{
+    background: url(/imagenes/camera_skins.png) no-repeat -80px -160px;
+    display: block;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 550px;
+}
+.pause > span{
+    background: url(/imagenes/camera_skins.png) no-repeat -120px -160px;
+    display: block;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 550px;
+}
+.left > span{
+    background: url(/imagenes/camera_skins.png) no-repeat 0 -160px;
+    display: block;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    margin-top: -150px;
+}
+.right > span{
+    background: url(/imagenes/camera_skins.png) no-repeat -40px -160px;
+    display: block;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 580px;
+}
+.cameraSlide{
+    display: none;
+    width: 100%;
+    visibility: hidden;
+}
+.cameraSlideYes{
+    display: inline;
+}
+.cameraContends{
+    color: #fff;
+    font-size: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 578px;
+    margin-top: -51px;
+    opacity: 1;
+    padding: 10px 20px;
+    background: rgba(68,68,68,0.6);
+    box-shadow: inset 0 4px 6px 0 #ccc;
+
+    z-index: 1000;
+    position: absolute;
+}
+.menu_choise{
+    float: right;
+}
+.menu_choise span{
+    width: 16px;
+}
+
+/*  La barra lateral */
+.sidebar{
+    width: 30%;
+    float: right;
+    padding-left: 10px;
+    padding-right: 28px;
+}
+.sidebar table{
+    margin: auto;
+    width: 100%;
+}
+.box{
+        -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 18px;
+    overflow: hidden;
+    width: 100%;
+}
+
+/*  La parte de abajo  */
+.cont-bot{
+    border-top: 4px solid #eee;
+    margin-top: 24px;
+    padding: 35px 0 30px 0;
+}
+.cont-bot p{
+    text-align: center;
+}
+.cont-bot img{
+    max-width: 100%;
+}
+.img-margen{
+    margin: 30px 35px;
+}
+.foot{
+    background: #2f3336;
+    font-size: 12px;
+    padding: 15px 30px 30px 30px;
+    margin-top: 0px;
+    color: #ccc;
+}
+.box.pie{
+    float: left;
+    width: 25%;
+    padding: 0 14px;
+}
+.box a{
+    text-decoration: none;
+    color: #848484;
+}
+.box.pie a:hover{
+    color: #fff;
+}
+.foot-2{
+    border-top:1px solid #3b3e41 ;
+    color: #747474;
+    font-size: 12px;
+    line-height: 51px;
+    margin: 0 auto 0 auto;
+    min-height: 10px;
+    padding: 0 30px;
+    background: #2f3336;
+    text-align: right;
+}

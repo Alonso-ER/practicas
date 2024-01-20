@@ -1,0 +1,60 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+header{
+    height: 50px;
+    background-color: #8a2be2;
+    
+}
+header img{
+    height: 80%;
+    margin: 5px 0 5px 10px;
+    float: left;
+}
+header h3{
+    float: left;
+    margin: 10px 0 15px 5px;
+    color: #000;
+}
+header a:hover{
+    cursor: pointer;;
+}
+.rep{
+   
+    width: 40%;
+    height: auto;
+    margin: 50px 30% 0 30%;
+} 
+.text{
+    padding-left: 16%;
+    font-size: 20px;
+}
+.rep h1{
+    margin: 10px;
+}
+
+.rep .imagen{
+    width: 64%;
+    margin: 0 18%;
+} 
+.botones{
+    margin: 0 44%;
+    display: none;
+}
+#pausa{
+    display: none;
+}
+#volumen{
+    float: right;
+    margin-top: -150px;
+    transform: rotate(270deg);
+}
+
+#re{
+    width: 26%;
+    margin: 0 37%;
+}

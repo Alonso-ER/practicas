@@ -1,0 +1,76 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    margin: 0;
+}
+header{
+    height: 50px;
+    background-color: blueviolet;
+    
+}
+header img{
+    height: 80%;
+    margin: 5px 0 5px 10px;
+    float: left;
+}
+header h3{
+    float: left;
+    margin: 10px 0 15px 5px;
+}
+a{
+    color: #000;
+}
+a:hover{
+    cursor: default;
+}
+/*  LISTADO   */
+.btn-cancion{
+    background-color: #fff;
+    border: none;
+    width: 80%;
+    margin: auto;
+}
+.cancion:hover{
+    border-radius: 5px;
+    border: 1px solid black;
+    /* background: linear-gradient(90deg, rgba(210,212,223,1) 0%, rgba(192,196,235,1) 50%, rgba(156,68,238,0.8631827731092436) 100%); */
+    background: rgba(210,212,223,1);
+    background: linear-gradient(153deg, rgba(210,212,223,1) 0%, rgba(192,196,235,1) 44%, rgba(132,0,255,0.8631827731092436) 100%);
+    background: linear-gradient(153deg, rgba(64,80,244,0.4206057422969187) 0%, rgba(192,153,246,0.9023984593837535) 44%, rgba(132,0,255,0.8631827731092436) 100%);
+}
+ul{
+    list-style: none;
+    width: 80%;
+    height: 70px;
+    padding: 16px 50px;
+    margin: auto;
+
+}
+li img{
+    width: 60px;
+    float: left;
+    margin-right: 10px;
+}
+.name{
+    font-size: 25px;
+    float: left;
+}
+.autor{
+    float: left;
+    font-size: 17px;
+    padding-left: 20px;
+}
+.autor:before{
+    content:  ' - ';
+}
+.dura{
+    float: right;
+    padding-top: 15px;
+    font-size: 20px;
+
+}
+li img, .name, .autor, .dura:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,23 @@
+Reproductor de música
+
+Implementar una página web que permita reproducir música.
+
+Vista inicial: la vista consiste en contener un reproductor de música, este deberá tener una
+imagen de la canción, nombre y tiempo, así como los botones de siguiente, anterior, play y 	volumen.
+
+Puntos a considerar: 
+•	La información de las canciones deberá actualizarse de acuerdo a la canción reproducida
+•	Imágenes y tipografías
+•	Colores y diseño de interfaz
+•	Modelo de matriz
+
+Tecnologías:
+•	HTML
+•	CSS
+•	BOOTSTRAP
+•	JAVASCRIPT
+
+Controles:
+•	Banner (header)Sidebar 
+•	Main page content
+•	Container (wrapper)

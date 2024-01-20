@@ -1,0 +1,214 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: #f4f4f4 url(https://www.cbtis225.edu.mx/templates/gk_gamenews/images/bg1.jpg) no-repeat center center fixed;
+    margin: 0;
+    border: 0;
+    line-height: 2;
+}
+div{
+    overflow: hidden;
+}
+.principal{
+    background-color: #fff!important;
+    width: 70%;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    max-width: 1000px;
+    height: min-content;
+}
+ul{
+    padding-left: 0;
+}
+.info{
+    padding: 28px;
+    padding-bottom: 0;
+}
+.top-bar{
+    position: fixed;
+    width: 100%;
+    background-color: #333232;
+    margin: -70px 0 0 0;
+    height: 40px;
+
+}
+div >.redes{
+    padding: 0;
+    float: left;
+    margin: -7px 0 0 15%;
+}
+.redes a{
+    background: url(/imagenes/social_icons.png) no-repeat 18px 2px;
+    padding: 0 12px;
+    text-indent:  -99999px;
+    border-left: 1px solid #444;
+    text-decoration: none;
+    width: 19px;
+    height: 20px;
+    display: block;
+    float: left;
+}
+p .twitter{
+    background-position: -22px 2px;
+}
+p .google{
+    background-position: -68px 2px;
+}
+p .rss{
+    background-position: -115px 2px;
+    border-right: 1px solid #444;
+    margin-right: 32px;
+}
+.redes ul{
+    list-style: none;
+    display: inline;
+
+}
+div .entra{
+    float: right;
+    margin-right: 21.5%;
+    
+}
+.entra ul{
+    list-style: none;
+    margin-top: -20px;
+}
+.entra ul li{
+    float: left;
+}
+.entra ul li a{
+    padding: 20px 26px 20px 26px;
+    background: #3b3b3b;
+    text-decoration: none;
+    color: #fff;
+    border: #000 solid 1px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 40px;
+    display: block;
+}
+.entra ul li a:hover{
+    background: #9d2449;
+}
+.banner{
+    float:right;
+}
+.menu ul{
+    list-style: none;
+    background-color: #9d2449;
+    margin: 0;
+    position:absolute;
+}
+.menu li{
+    overflow: visible;
+    text-align: left;
+    left: auto;
+}
+.nav-bar{
+    padding-left: 0;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: #fff;
+}
+/* .nav-bar ul{
+    transform:scale(1,0);
+  -webkit-transform:scale(1,0);
+  -moz-transform:scale(1,0);
+  -o-transform:scale(1,0);
+  transform-origin:top center;
+  -webkit-transform-origin:top center;
+  -moz-transform-origin:top center;
+  -o-transform-origin:top center;
+  transition:0.3s;
+  -webkit-transition:0.3s;
+  -moz-transition:0.3s;
+  -o-transition:0.3s;
+} */
+.nav-bar > li{
+    float: left;
+    background-color: #484b4d;
+    border-right: 1px solid #696a6b;
+    padding: 10px 17px;
+    font-size: 14px;
+    max-width: min-content;
+}
+.nav-bar > li:hover{
+    background-color: #9d2449;
+    
+}
+.nav-bar > li ul{
+    padding-left: 0;
+}
+.nav-bar > li > ul{
+    display: none;
+    
+}
+.nav-bar > li > ul li:hover > a{
+    color: #fecbb5;
+}
+.nav-bar > li:hover>ul{
+    margin-top: 15px;
+    margin-left: -15px;
+    display: block;
+}
+.nav-bar > li > ul  li{
+    padding: 15px 15px;
+    text-align: left;
+}
+.nav-bar > li > ul li:not(:first-of-type){
+    border-top: 1px #fd7a3f solid;
+}
+.nav-bar > li > ul > li > ul{
+    display: none;
+    border: 1px #fd7a3f solid;
+}
+.nav-bar > li > ul > li:hover > ul{
+    display: block;
+    margin-left: 60px;
+}
+.nav-bar > li > ul > li > ul > li {
+    max-width: 180px;
+    padding: 15px 12px;
+    
+} 
+
+
+/*Submenu*/
+
+.submenu{
+    border-bottom: 3px solid #eee;
+    clear: both;
+    font-size: 11px;
+}
+.submenu ul{
+    list-style: none;
+    display: block;
+    min-height: 16px;
+}
+.submenu li{
+    display: list-item;
+    list-style-position: outside;
+    padding-bottom: 5px;
+    
+}
+.submenu ul li{
+    float: left;
+
+}
+.submenu a{
+    padding: 0 12px;
+    text-decoration: none;
+    color: #717171;
+}
+.submenu a:hover{
+    color: #212121;
+}
+.submenu a{
+    border-left: 1px solid #e5e5e5;
+}
+.submenu ul li:first-child a{
+    border-left: none!important;
+}

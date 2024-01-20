@@ -1,0 +1,110 @@
+/*     GLOBALES Y DEL INDEX         */
+*{
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    background-color: #4895D9;
+    height: 50px;
+    padding: 10px;
+}
+header img{
+    height: 40px;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+}
+footer{
+    background-color: #F28B30;
+    height: 100px;
+    margin: 0 auto 50px;
+    display:flex;
+    width: 800px;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 10px;
+    border-radius: 4px;
+}
+.datos{
+    display:flex;
+    width: 500px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    /* background-color: #8BADD9; */
+    background: linear-gradient(153deg, rgba(139,173,217,1) 0%, rgba(153,175,246,1) 44%, rgba(45,137,255,1) 100%);
+    padding: 50px 10px;
+    border-radius: 4px;
+}
+.datos input{
+    border-radius: 5px;
+    padding: 4px;
+    border-style: none;
+    width: 220px;
+}
+.botIng{
+    width: 90px;
+    height: 40px;
+    border-radius: 6px;
+    margin-left: 20%;
+}
+.botIng:hover{
+    background-color: #F2BE5C;
+}
+
+.title{
+  font-size: 25px;
+}
+
+/*   CUESTIONARIO   */
+.preguntas{
+    display:flex;
+    width: 800px;
+    margin: 50px auto 0;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(153deg, rgba(139,173,217,1) 0%, rgba(153,175,246,1) 44%, rgba(45,137,255,1) 100%);
+    padding: 50px 10px;
+    border-radius: 4px;
+    flex-direction: column;
+}
+.preguntas div{
+    margin-bottom: 30px;
+    background-color: aliceblue;
+    border-radius: 4px;
+    padding: 20px;
+    border: #000 solid 1px;
+}
+.preguntas input{
+    border-radius: 5px;
+    padding: 4px;
+    border-style: none;
+    width: 28px;
+    margin-top: 5px;
+}
+.botRes{
+    width: 90px;
+    height: 40px;
+    border-radius: 6px;
+    margin: 0 41%;
+}
+.botRes:hover{
+    background-color: #F2BE5C;
+}
+
+/*    RESULTADOS   */
+.porfavor{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 50%;
+}
+
+
+
+.content{
+    padding-right: 140px;
+}

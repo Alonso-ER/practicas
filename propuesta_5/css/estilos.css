@@ -1,0 +1,381 @@
+/*  PALETA DE COLORES   */
+/*  
+#e7edea     BEIGE BLANCO
+#ffc52c     AMARILLO
+#fb0c06    ROJO
+#030d4f     AZUL FUERTE
+#ceecef     CELESTE
+*/
+
+/*   ESTILOS GLOBALES    */
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+html{
+    overflow-x: hidden;
+}
+body{
+    min-width: 732px;
+}
+/*        HEADER    */
+header{
+    height: 70px;
+    background: #0d26c5;
+}
+header img{
+    height: 50px;
+    padding: 5px 10px 10px 20px;
+    float: left;
+}
+header a{
+    text-decoration: none;
+    color: #fff;
+}
+header h1{
+    float: left;
+    padding-top: 10px;
+}
+
+.img-carrito{
+    float: right;
+}
+.img-carrito img{
+    height: 60px;
+    padding: 0 20px 10px 0;
+}
+
+/*    NAV BAR         */
+nav{
+    height: 48px;
+    background: #beeff5;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+nav > ul{
+    list-style: none;
+    display: inline;
+    text-align: left;
+    padding-inline-start: 0;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+ul.navbar a{
+    float: left;
+    padding: 15px 30px;
+    border-left: #000 1px solid;
+    border-right: #000 1px solid;
+    text-decoration: none;
+    color: #000;
+}
+ul.navbar a:hover{
+    background-color: #ffc52c;
+    cursor: pointer;
+}
+
+/*   CONTENIDO PRINCIPAL  */
+
+.main-content{
+    width: 80%;
+    margin: auto;
+}
+.main-content a{
+    font-style: none;
+    color: #000;
+}
+
+.titulos{
+    height: 60px;
+    background-color: #fb0c06;
+    font-size: 35px;
+    margin: 20px 0;
+}
+.titulos h1{
+    width: 350px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 28%;
+    float: left;
+    padding: 25px 10px 10px;
+    border: #000 1px solid;
+    border-radius: 5px;
+    margin: 5px 7px;
+
+}
+.container a{
+    text-decoration: none;
+    color: #000;
+}
+.container:hover{
+    cursor: pointer;
+}
+
+.agregar-carrito{
+    float: right;
+    padding: 5px;
+    cursor: pointer;
+}
+.salvador{
+    display: flex;
+    justify-content: right;
+    cursor: default;
+    width: 90%;
+    padding: 10px 0;
+}
+.container img{
+    width: 100%;
+}
+#celu_name{
+    padding-left: 20px;
+}
+#precio{
+    display: inline;
+    padding-left: 20px;
+}
+#precio::before{
+    content: "$";
+}
+
+
+/*   CARRUSEL    */
+.carrusel{
+    margin: auto;
+    width: 65%;
+    position: relative;
+    padding: 20px 0;
+    z-index: 0;
+}
+.before, .after{
+    display: inline;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+}
+.before, .after:hover{
+    cursor: pointer;
+}
+.after{
+    right: 0;
+    
+}
+.main-img{
+    height: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.main-img img{
+    height: 550px;
+}
+.main-img p{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 40px;
+    background: #e7edea
+}
+
+/*    FOOTER   */
+
+footer{
+    width: 100%;
+    background: #e7edea;
+    height: 200px;
+    margin: 50px auto 0px;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.foot{
+    position: absolute;
+    top: 50%;
+}
+
+/*    VISTA   */
+.vista{
+    width: 1000px;
+
+}
+.vista img,h2,h3{
+    float: left;
+}
+.vista img{
+    width: 450px;
+    margin: 0 20px;
+}
+.vista h2{
+    font-size: 35px;
+    font-weight: 500;
+    padding: 20px 0;
+}
+.vista h3{
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.compra{
+    float: right;
+    width: 300px;
+    background-color: #e7edea;
+    border-radius: 6px;
+    margin: 20px 60px 20px 50px;
+    padding: 20px 50px;
+   
+}
+.compra h2{
+    font-weight: normal;
+    font-size: 50px;
+    display: block;
+}
+.compra h2::before{
+    content: '$';
+}
+.compra input{
+    margin: 0px 10px 20px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 40px;
+}
+.compra button{
+    margin: 20px 5px;
+    border-radius: 5px;
+    padding: 7px 5px;
+}
+
+
+/*  CARRITO   */
+th{
+    font-size: 30px;
+}
+.cart table{
+    width: 1000px;
+    margin: 20PX auto;
+}
+td.cart-img{
+    width: 120px;
+}
+
+.cart-img img{
+    width: 100px;
+}
+td.cart-desc{
+    width: 400px;   
+}
+.cart-desc .nombre{
+    width: 400px;
+    font-size: 30px;
+}
+.cart-desc .desc{
+    font-size: 20px;
+    width: 400px;
+}
+td.cart-cant{
+    width: 80px;
+}
+.cart-cant input{
+    padding: 5px;
+    border-radius: 5px;
+    width: 40px;
+}
+.fila .cart-precio, .cart-total{
+    font-size: 25px;
+    width: 140px;
+}
+.fila .cart-precio::before, .cart-total::before{
+    content: '$';
+}
+.cart-del:hover{
+    cursor: pointer;
+}
+#total{
+    width: 300px;
+    height: 150px;
+    float: right;
+    background-color: #e7edea;
+    padding: 30px 20px;
+    margin: 20px 40px;
+    font-size: 20px;
+}
+
+#total button{
+    padding: 10px 20px;
+    background-color: #beeff5;
+    width: 140px;
+    margin: 30px 80px;
+    border-radius: 6px;
+}
+.total{
+    float: right;
+}
+.total::before{
+    content: '$';
+}
+footer.espacio{
+    background-color: #fff;
+}
+
+.formulario form{
+    width: 400px;
+    margin: 30px auto;
+    background-color: #a0ccff;
+    padding: 20px 40px;
+
+}
+.formulario input{
+    margin: 10px auto;
+    display: flex;
+    padding: 5px;
+}
+.formulario .submit{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+.submit button{
+    width: 70px;
+}
+.title{
+    width: 450px;
+    font-size: 22px;
+    margin: 30px auto 0;
+}
+.title h2{
+    float: none;
+    font-weight: 100;
+}
+
+/* INFO  */
+
+.info{
+    width: 60%;
+    margin: 40px auto;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+/*       CARRITO VACIO   */
+/* <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
+            <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9z"/>
+        <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
+    </svg> */
+
+/*        CARRITO LLENO*/
+/* <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-cart-plus-fill" viewBox="0 0 16 16">
+        <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0M9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0"/>
+    </svg> */
